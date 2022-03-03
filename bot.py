@@ -424,5 +424,4 @@ async def on_message(message):
     await client.process_commands(message)
 
 #CLIENT RUN AND BOT TOKEN
-load_dotenv('.env')
-client.run(os.getenv('TOKEN'))
+client.run("token here")
